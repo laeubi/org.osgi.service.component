@@ -13,9 +13,17 @@ Part of the [OSGi Specification Project](https://projects.eclipse.org/projects/t
 Implementations known to provide this specification. Additions and
 corrections are welcome — please open a pull request.
 
-| Project | Link | Notes |
-|---------|------|-------|
-| _none listed yet_ | | |
+### Runtime
+
+| Project                                                                 | Notes                                                                                                                                                              |
+|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Apache Felix SCR](https://github.com/apache/felix-dev/tree/master/scr) | Reference implementation of Declarative Services 1.4 (R7) that passes the CT; also supports the DS 1.5 (R8) Satisfying Condition                                   |
+
+### Tooling
+
+| Project                                                           | Notes                                                                                                                                                  |
+|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Eclipse PDE](https://github.com/eclipse-pde/eclipse.pde/tree/master/ds) | Processes the DS annotations in the IDE (via a JDT compilation participant) and generates the component XML; supports DS 1.0 to 1.5 descriptors |
 
 ## Build
 
